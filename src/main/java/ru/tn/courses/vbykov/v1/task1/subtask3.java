@@ -9,7 +9,7 @@ public class subtask3 {
      **/
 
     public static void main(String[] args) {
-        int[] a, b, c;
+        int[] a, b;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите длину последовательностей n:");
