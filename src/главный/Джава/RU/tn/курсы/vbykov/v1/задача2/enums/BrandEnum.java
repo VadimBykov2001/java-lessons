@@ -1,4 +1,4 @@
-package ru.tn.courses.vbogatyrev.v1.task2.enums;
+package ru.tn.courses.vbykov.v1.task2.enums;
 
 public enum BrandEnum {
     KIA("киа"), Lada("лада"), Toyota("тойота");
