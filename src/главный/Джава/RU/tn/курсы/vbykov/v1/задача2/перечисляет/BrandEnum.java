@@ -12,5 +12,4 @@ public enum BrandEnum {
     public String getValue() {
         return value;
     }
-
 }
