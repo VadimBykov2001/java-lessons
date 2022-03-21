@@ -2,7 +2,7 @@ package ru.tn.courses.vbykov.v1.task2.repositories;
 
 import ru.tn.courses.vbykov.v1.task2.enums.BrandEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.ColorEnum;
-import ru.tn.courses.vbykov.v1.task2.enums.DriveEnum;
+import ru.tn.courses.vbykov.v1.task2.enums.OperatingSystemEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.TransmissionEnum;
 import ru.tn.courses.vbykov.v1.task2.models.Car;
 import ru.tn.courses.vbykov.v1.task2.models.Product;
@@ -28,7 +28,7 @@ public class ProductRepository extends RepositoryImpl<Product> {
                         BrandEnum.VAZ.getValue(),
                         1500,
                         TransmissionEnum.AUTOMATIC.getValue(),
-                        DriveEnum.FRONT.getValue(),
+                        OperatingSystemEnum.FRONT.getValue(),
                         8));
         save(
                 new Car(
@@ -37,7 +37,7 @@ public class ProductRepository extends RepositoryImpl<Product> {
                         BrandEnum.AUDI.getValue(),
                         1500,
                         TransmissionEnum.MANUAL.getValue(),
-                        DriveEnum.REAR.getValue(),
+                        OperatingSystemEnum.REAR.getValue(),
                         10));
         save(
                 new Car(
@@ -46,7 +46,7 @@ public class ProductRepository extends RepositoryImpl<Product> {
                         BrandEnum.BMW.getValue(),
                         2000,
                         TransmissionEnum.AUTOMATIC.getValue(),
-                        DriveEnum.FRONT.getValue(),
+                        OperatingSystemEnum.FRONT.getValue(),
                         15));
     }
 }
