@@ -1,5 +1,4 @@
 package ru.tn.courses.vbykov.v1.task2.repositories;
-
 import java.util.List;
 
 public interface Repository<T> {
