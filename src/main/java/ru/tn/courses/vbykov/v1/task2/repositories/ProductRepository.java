@@ -1,16 +1,13 @@
 package ru.tn.courses.vbykov.v1.task2.repositories;
-
 import ru.tn.courses.vbykov.v1.task2.enums.BrandEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.ColorEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.OperatingSystemEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.DisplayResolutionEnum;
 import ru.tn.courses.vbykov.v1.task2.models.Smartphone;
 import ru.tn.courses.vbykov.v1.task2.models.Product;
-
 import java.util.ArrayList;
 
 public class ProductRepository extends RepositoryImpl<Product> {
-
     private static ProductRepository instance;
     public static ProductRepository getInstance(){
         if(instance == null){
@@ -18,7 +15,6 @@ public class ProductRepository extends RepositoryImpl<Product> {
         }
         return instance;
     }
-
     private ProductRepository() {
         super(new ArrayList<>());
         save(
