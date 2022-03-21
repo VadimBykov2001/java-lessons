@@ -6,7 +6,7 @@ public class Smartphone extends Product {
     private String Display_Resolution;
     private String Operating_System;
 
-    public Car(Integer id, String Color, String Brand, double price, String Display_Resolution, String Operating_System, int count) {
+    public Smartphone(Integer id, String Color, String Brand, double price, String Display_Resolution, String Operating_System, int count) {
         super(id, price, count);
         this.Color = Color;
         this.Brand = Brand;
