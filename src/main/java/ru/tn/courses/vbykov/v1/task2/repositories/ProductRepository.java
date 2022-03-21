@@ -3,8 +3,8 @@ package ru.tn.courses.vbykov.v1.task2.repositories;
 import ru.tn.courses.vbykov.v1.task2.enums.BrandEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.ColorEnum;
 import ru.tn.courses.vbykov.v1.task2.enums.OperatingSystemEnum;
-import ru.tn.courses.vbykov.v1.task2.enums.TransmissionEnum;
-import ru.tn.courses.vbykov.v1.task2.models.Car;
+import ru.tn.courses.vbykov.v1.task2.enums.DisplayResolutionEnum;
+import ru.tn.courses.vbykov.v1.task2.models.Smartphone;
 import ru.tn.courses.vbykov.v1.task2.models.Product;
 
 import java.util.ArrayList;
@@ -22,31 +22,31 @@ public class ProductRepository extends RepositoryImpl<Product> {
     private ProductRepository() {
         super(new ArrayList<>());
         save(
-                new Car(
+                new Smartphone(
                         getSize(),
                         ColorEnum.BLUE.getValue(),
-                        BrandEnum.VAZ.getValue(),
+                        BrandEnum.Samsung.getValue(),
                         1500,
-                        TransmissionEnum.AUTOMATIC.getValue(),
-                        OperatingSystemEnum.FRONT.getValue(),
+                        DisplayResolutionEnum.PLUS.getValue(),
+                        OperatingSystemEnum.Android.getValue(),
                         8));
         save(
-                new Car(
+                new Smartphone(
                         getSize(),
-                        ColorEnum.GREEN.getValue(),
-                        BrandEnum.AUDI.getValue(),
+                        ColorEnum.BLACK.getValue(),
+                        BrandEnum.Xiaomi.getValue(),
                         1500,
-                        TransmissionEnum.MANUAL.getValue(),
-                        OperatingSystemEnum.REAR.getValue(),
+                        DisplayResolutionEnum.STANDART.getValue(),
+                        OperatingSystemEnum.Android.getValue(),
                         10));
         save(
-                new Car(
+                new Smartphone(
                         getSize(),
-                        ColorEnum.BLUE.getValue(),
-                        BrandEnum.BMW.getValue(),
+                        ColorEnum.WHITE.getValue(),
+                        BrandEnum.Huawei.getValue(),
                         2000,
-                        TransmissionEnum.AUTOMATIC.getValue(),
-                        OperatingSystemEnum.FRONT.getValue(),
+                        DisplayResolutionEnum.STANDART.getValue(),
+                        OperatingSystemEnum.Ubuntu_Touch.getValue(),
                         15));
     }
 }
