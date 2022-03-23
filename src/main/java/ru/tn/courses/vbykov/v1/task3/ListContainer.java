@@ -1,6 +1,5 @@
 package ru.tn.courses.vbykov.v1.task3;
 import java.util.Collection;
-
 public class ListContainer<T> {
     private T[] values;
     private int size;
