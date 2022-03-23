@@ -1,5 +1,4 @@
 package ru.tn.courses.vbykov.v1.task3;
-
 public class Subtask_1 {
     /**
      * (Задание 1 варианта) Разработать класс Integer
