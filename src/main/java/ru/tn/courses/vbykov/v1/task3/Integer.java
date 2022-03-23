@@ -1,5 +1,4 @@
 package ru.tn.courses.vbykov.v1.task3;
-
 public class Integer {
     private final int value;
     public final static int MAX_VALUE = 0x7fffffff;
